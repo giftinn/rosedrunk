@@ -3,7 +3,7 @@
       const c = setTimeout(() => {
         document.body.classList.remove("not-loaded");
 
-        const titles = ('I Love You, Athan').split('');
+        const titles = ('happy 1st mensive').split('');
         const titleElement = document.getElementById('title');
         let index = 0;
 
@@ -21,7 +21,7 @@
           } else {
             // Setelah teks utama selesai, tambahkan subtitle kecil
             const subtitle = document.createElement('p');
-            subtitle.innerText = "Thank you for loving me with all your lovee – ilysb bb!<33";
+            subtitle.innerText = "it’s only been a month, but you already mean so much to me. thank you for everything, let’s keep going together";
             subtitle.style.fontSize = '20px'; // Ukuran font lebih kecil
             subtitle.style.marginTop = '2px'; // Spasi antara teks utama dan subtitle
             subtitle.style.color = '#fff'; // Warna abu-abu untuk teks subtitle
